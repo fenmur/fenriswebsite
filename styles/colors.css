@@ -1,0 +1,249 @@
+body {
+    background-color: #211d54; 
+    margin: 0;
+  }
+  p {
+    font-family: 'Oxanium', sans-serif;
+}
+  /* Styling the hero container */
+  
+  .hero-container {
+    position: relative;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%; 
+    object-fit: fill;
+    z-index: -1;
+}
+
+/* Styling the hero content */
+.hero-content {
+    z-index: 1;
+}
+
+/* Styling the hero header */
+.hero-content h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #8481a8;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 20px rgba(0, 123, 255, 0.8); 
+}
+
+.hero-content h2 {
+    font-size:larger;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: medium;
+    color: #787cc9;
+    text-shadow: 0 0 20px rgba(0, 123, 255, 0.8); 
+    font-family: 'Oxanium', sans-serif;
+}
+
+
+/* Styling the content container */
+.content-section {
+    background-color: #060b1b;
+    color: #1f2c6f; 
+    padding: 20px;
+    overflow: hidden;
+    text-align: center; 
+}
+
+/* Styling the headers */
+.content-section h2 {
+    color: #351f87;
+    margin-bottom: 20px; 
+}
+
+/* Styling the paragraphs */
+.content-section p {
+    color: #ADD8E6; 
+    font-size: medium; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+}
+
+/* Styling the card section */
+.card-section {
+    background-color: #14021f;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.card-section h2 {
+    color: #441ab7; 
+    margin-bottom: 20px;
+}
+
+.card-section p {
+    color: #25749e; 
+    font-size: medium;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+.card {
+    flex: 0 0 50%; 
+    max-width: none; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #0f1b3b;
+    text-align: center;
+    
+}
+
+
+.card img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px 10px 0 0; 
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3{
+    font-size:x-large;
+    font-weight: 600;
+    color: #3b2f99;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size:medium;
+    color: #294092; 
+}
+
+  /* Styling the accordion content */
+  
+  .accordion-container h2 {
+    text-align: center;
+    color: #0c0a1b;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .accordion-btn {
+    text-align: center;
+    background-color: #0c082e;
+    font-family: 'Oxanium', sans-serif;
+    color: #403d58;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .accordion-btn.active, .accordion-btn:hover {
+    background-color: #231f59;
+    color: #0400ff;
+  }
+  
+  .accordion-panel {
+    padding: 0 18px;
+    background-color: #3f1b8e;
+    overflow: hidden;
+    display: none;
+    border-radius: 12px;
+  }
+  
+  .accordion-panel.active-panel {
+    display: block;
+  }
+  
+  
+  .accordion-panel p {
+    color: #0c0a18;
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling the video section */
+
+  .video-section {
+    background-color: #060b1b;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-section h2 {
+    color: #1f2c6f;
+}
+
+.video-section p {
+    color: #1f2c6f;
+}
+
+.video-container {
+    display: inline-block;
+}
+
+
+  
+  /*Styling the footer */
+  
+  
+  .footer-container {
+    background-color: #1f1944;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the copyright date */
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the link list */
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content li {
+    margin: 0 15px;
+  }
+  
+  .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+ 
