@@ -67,13 +67,13 @@ body {
 
 /* Styling the headers */
 .content-section h2 {
-    color: #4428ab;
+    color: #4c25d5;
     margin-bottom: 20px; 
 }
 
 /* Styling the paragraphs */
 .content-section p {
-    color: #3b34b9; 
+    color: #3e35dd; 
     font-size: medium; 
     line-height: 1.6; 
     margin-bottom: 20px; 
@@ -91,12 +91,12 @@ body {
 
 
 .card-section h2 {
-    color: #441ab7; 
+    color: #673fd5; 
     margin-bottom: 20px;
 }
 
 .card-section p {
-    color: #4b26a3; 
+    color: #6239c2; 
     font-size: medium;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -129,20 +129,20 @@ body {
 .card-content h3{
     font-size:x-large;
     font-weight: 600;
-    color:#ADD8E6;
+    color:#5b3ea5;
     margin-bottom: 10px;
 }
 
 .card-content p {
     font-size:medium;
-    color: #ADD8E6; 
+    color: #549eb6; 
 }
 
   /* Styling the accordion content */
   
   .accordion-container h2 {
     text-align: center;
-    color: #483aad;
+    color: #6050d9;
     font-family: 'Oxanium', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -153,7 +153,7 @@ body {
     text-align: center;
     background-color: #0c082e;
     font-family: 'Oxanium', sans-serif;
-    color: #585099;
+    color: #675bc1;
     cursor: pointer;
     padding: 10px;
     width: 100%;
@@ -163,7 +163,7 @@ body {
   }
   
   .accordion-btn.active, .accordion-btn:hover {
-    background-color: #231f59;
+    background-color: #302b75;
     color: #0400ff;
   }
   
@@ -195,11 +195,11 @@ body {
 }
 
 .video-section h2 {
-    color: #1f2c6f;
+    color: #3046b2;
 }
 
 .video-section p {
-    color: #1f2c6f;
+    color: #283da7;
 }
 
 .video-container {
@@ -246,5 +246,6 @@ body {
     text-decoration: underline;
   }
   
+ 
  
  
