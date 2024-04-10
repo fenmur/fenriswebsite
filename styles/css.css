@@ -50,7 +50,7 @@ body {
     font-weight: 500;
     margin-bottom: 1.5rem;
     font-size: medium;
-    color: #787cc9;
+    color: #c3b1e6;
     text-shadow: 0 0 20px rgba(0, 123, 255, 0.8); 
     font-family: 'Oxanium', sans-serif;
 }
@@ -67,13 +67,13 @@ body {
 
 /* Styling the headers */
 .content-section h2 {
-    color: #3e35dd;
+    color: #c3b1e6;
     margin-bottom: 20px; 
 }
 
 /* Styling the paragraphs */
 .content-section p {
-    color:#3e35dd; 
+    color: #c3b1e6; 
     font-size: medium; 
     line-height: 1.6; 
     margin-bottom: 20px; 
@@ -96,7 +96,7 @@ body {
 }
 
 .card-section p {
-    color: #3e35dd;
+    color: #c3b1e6;
     font-size: medium;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -129,20 +129,20 @@ body {
 .card-content h3{
     font-size:x-large;
     font-weight: 600;
-    color: #3e35dd;
+    color: #c3b1e6;
     margin-bottom: 10px;
 }
 
 .card-content p {
     font-size:medium;
-    color: #549eb6; 
+    color: #c3b1e6; 
 }
 
   /* Styling the accordion content */
   
   .accordion-container h2 {
     text-align: center;
-    color: #3e35dd;
+    color:#c3b1e6;
     font-family: 'Oxanium', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -181,7 +181,7 @@ body {
   
   
   .accordion-panel p {
-    color: #0c0a18;
+    color: #c3b1e6;
     font-family: 'Oxanium', sans-serif;
     text-align: center;
   }
